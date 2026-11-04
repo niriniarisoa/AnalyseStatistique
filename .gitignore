@@ -1,0 +1,13 @@
+# Ignorer les data
+data/
+
+# Ignorer tous les fichiers qui finissent par une extension (ex: les logs)
+*.log
+
+# Ignorer un dossier complet et tout son contenu (ajouter un slash à la fin)
+node_modules/
+build/
+
+# Ignorer tous les fichiers .env, sauf le fichier .env.example (le point d'exclamation crée une exception)
+.env*
+!.env.example
